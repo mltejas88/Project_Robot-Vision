@@ -1,0 +1,30 @@
+# Data
+path: /home/tejas/YOLO/data2
+train: images/train  # train images (relative to 'path')
+val: images/valid  # val images (relative to 'path')
+
+# Keypoints
+kpt_shape: [5, 2]  # [number of keypoints, number of dim]
+#flip_idx: [1, 0, 3, 2, 4]  # keypoint flip index
+
+# Classes
+names:
+  0: RED CUBE
+  1: CYAN CUBE
+  2: GREEN CUBE
+  3: YELLOW CUBE
+
+# path: /home/tejas/YOLO/data1
+# train: train/images  # train images (relative to 'path')
+# val: valid/images  # val images (relative to 'path')
+
+
+# # Classes
+# names:
+#   0: Cyan_cube
+#   1: Green_Cube
+#   2: Red_Cube
+#   3: Yellow Cube
+
+
+
